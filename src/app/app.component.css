@@ -1,0 +1,14 @@
+.wraper{
+    display: flex;
+    
+}
+.container_router{
+    /* margin-left: 70px; */
+    background: #1d1d1d;
+    position: fixed;
+    top: 0px;
+    left: 70px;
+    right: 0px;
+    bottom: 0px;
+    color: #ffffff;
+}

@@ -1,0 +1,64 @@
+.nav{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 70px;
+    background: #181818;
+    display: grid;
+}
+.nav .logotipo img{
+    width: 100%;
+}
+.nav .nav_menu{
+    list-style: none;
+}
+.nav .nav_menu li a .icon_nav{
+    width: 100%;
+    text-align: center;
+}
+.nav .nav_menu li a .icon_nav::before{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+
+}
+.nav .nav_menu li{
+    /* border: 1px solid green; */
+    position: relative;
+    padding: 18px 0px;
+    margin: 25px 0px;
+}
+.nav .nav_menu li a{
+    color: #a2a2a2;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    transition: all .3s ease;
+    z-index: 10;
+}
+.nav .nav_menu li:hover a{
+    opacity: 0;
+}
+.nav .nav_menu li:hover > span{
+    opacity: 1;
+}
+.nav .nav_menu li .tag_icon{
+    color: aqua;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-family: helvetica;
+    font-size: 13px;
+    opacity: 0;
+    transition: all .4s ease;
+}
+.active{
+    color: aqua;
+}

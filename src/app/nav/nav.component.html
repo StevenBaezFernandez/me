@@ -1,0 +1,37 @@
+<nav class="nav">
+    <a routerLink="/" class="logotipo">
+        <img src="assets/img/logo.jpg" alt="logo">
+    </a>
+    <ul class="nav_menu">
+        <li  ><a routerLink="/" >
+                <i routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="icon_nav icon_nav_active flaticon-hogar"></i>
+            </a>
+            <span class="tag_icon">Home</span>
+        </li>
+        <li >
+            <a routerLink="about" >
+                <i routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="icon_nav flaticon-usuario"></i>
+            </a>
+            <span class="tag_icon">About</span>
+        </li>
+        <li >
+            <a routerLink="skills" >
+                <i routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="icon_nav flaticon-configuraciones"></i>
+            </a>
+            <span class="tag_icon">Skill</span>
+        </li>
+        <li >
+            <a routerLink="my-work" >
+                <i routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="icon_nav flaticon-ver"></i>
+            </a>
+            <span class="tag_icon">My work</span>
+        </li>
+        <li >
+            <a routerLink="contact" >
+                <i routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="icon_nav flaticon-correo-electronico"></i> 
+            </a>
+            <span class="tag_icon">Contact</span>
+        </li>
+
+    </ul>
+</nav>
