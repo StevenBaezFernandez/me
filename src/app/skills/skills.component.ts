@@ -23,7 +23,7 @@ export class SkillsComponent implements OnInit {
     }, 1000);
 
     const options = {
-     strings: ["<span>About me.</span>"],
+     strings: ["<span>My skills.</span>"],
      typeSpeed: 70,
      backSpeed: 100,
      showCursor: true,
