@@ -23,7 +23,7 @@ export class AboutComponent implements OnInit {
      }, 1000);
 
      const options = {
-      strings: ["<span>About me.</span>"],
+      strings: ["<span>Who am I.</span>"],
       typeSpeed: 70,
       backSpeed: 100,
       showCursor: true,

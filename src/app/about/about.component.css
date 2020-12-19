@@ -27,8 +27,8 @@
 }
 .about_main_container .left p{
     margin-left: 80px;
-    padding: 10px 20px 10px 5px;
-    text-align: justify;
+    padding: 10px 0px 10px 5px;
+    text-align: left;
     font-family: 'Inconsolata', monospace;
     line-height: 22px;
     color: #cccccc;
