@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
     }, 1000);
 
     const options = {
-      strings: ["Hi,<br> I’m Steven <br> Web Developer."],
+      strings: ["Hey 👋 <br> I’m Steven <br> Web Developer."],
       typeSpeed: 70,
       backSpeed: 100,
       showCursor: true,
