@@ -1,144 +1,29 @@
 .tittle_skills{
-    font-size: 4em;
+    font-size: 4.8em;
     color: aqua;
     margin: 50px 0px 50px 80px;
     height: 1em;
 }
-.container_skills{
-    margin-left: 80px;
-    width: 85%;
-    opacity: 0;
-    animation: showup 1s ease-out 2s forwards;
-}
-@keyframes showup{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-
-    }
-}
-.container_skills h3{
-    margin: 20px 0px;
-}
-.container_skills .bar{
-    display: block;
-    height: 2px;
-    background: #4e5157;
-    border: 1px solid rgba(4,4,4,.8);
-    box-shadow: 0 0 10px aqua;
-    border-radius: 3px;
-}
-.container_skills .bar span{
-    float: left;
-    background: aqua;
-    height: 2px;
-}
-.container_skills .bar .html{
-    width: 90%;
-    opacity: .6;
-    opacity: .6;
-    animation: html 2s ease-out 2 forwards;
-}
-.container_skills .bar .css{
-    width: 85%;
-    opacity: .6;
-    animation: css 2s ease-out 2 forwards;
-}
-.container_skills .bar .javascript{
-    width: 80%;
-    opacity: .6;
-    animation: javascript 2s ease-out 2 forwards;
-}
-.container_skills .bar .angular{
-    width: 50%;
-    opacity: .6;
-    animation: angular 2s ease-out 2 forwards;
-}
-.container_skills .bar .sass{
-    width: 75%;
-    opacity: .6;
-    animation: sass 2s ease-out 2 forwards;
-}
-.container_skills .bar .git_github{
-    width: 65%;
-    opacity: .6;
-    animation: git_github 2s ease-out 2 forwards;
-}
-.container_skills .bar .php_mysql{
-    width: 70%;
-    opacity: .6;
-    animation: php_mysql 2s ease-out 2 forwards;
+.container-cards-skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 90px 50px 0px 80px;
 }
 
-@keyframes html{
-    0%{
-        width: 0%;
-        opacity: .6;
-    }
-    100%{
-        width: 90%;
-        opacity: 1;
-    }
+.card{
+    background: #222;
+    padding: 35px 10px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 3px 5px #000;
+    border-bottom: 4px solid rgba(5, 224, 232, 0.912);
+    cursor: pointer;
+    transition: all .2s ease;
 }
-@keyframes css{
-    0%{
-        width: 0%;
-        opacity: .6;
-    }
-    100%{
-        width: 85%;
-        opacity: 1;
-    }
+.card:hover{
+    transform: scale(1.05) translateY(-10px);
 }
-@keyframes javascript{
-    0%{
-        width: 0%;
-        opacity: .6;
-    }
-    100%{
-        width: 80%;
-        opacity: 1;
-    }
-}
-@keyframes angular{
-    0%{
-        width: 0%;
-        opacity: .6;
-    }
-    100%{
-        width: 60%;
-        opacity: 1;
-    }
-}
-@keyframes sass{
-    0%{
-        width: 0%;
-        opacity: .6;
-    }
-    100%{
-        width: 90%;
-        opacity: 1;
-    }
-}
-@keyframes git_github{
-    0%{
-        width: 0%;
-        opacity: .6;
-    }
-    100%{
-        width: 65%;
-        opacity: 1;
-    }
-}
-@keyframes php_mysql{
-    0%{
-        width: 0%;
-        opacity: .6;
-    }
-    100%{
-        width: 70%;
-        opacity: 1;
-    }
+.card img{
+    width: 90px;
 }

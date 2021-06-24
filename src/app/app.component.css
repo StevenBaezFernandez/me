@@ -11,4 +11,19 @@
     right: 0px;
     bottom: 0px;
     color: #ffffff;
+    overflow: auto;
+
+}
+.container_router::-webkit-scrollbar{
+    width: 6px;
+    background-color: none;
+}
+::-webkit-scrollbar-track{
+    background: none;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #333;
+    border-radius: 5px;
+    /* background-color: #08723b; 
+    background-image: -webkit-linear-gradient(90deg,rgba(255, 255, 255, .2) 25%,transparent 25%,transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,transparent 75%,transparent) */
 }

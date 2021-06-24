@@ -18,20 +18,23 @@
     line-height: 1em;
     font-weight: bold;
     letter-spacing: -3px;
-    -webkit-user-select: none;
+    --webkit-user-select: none;
     height: 1em;
     margin-bottom: 20px;
 }
 .typed{
     color: aqua;
+    color: 4.8em;
+    text-transform: uppercase;
 }
 .about_main_container .left p{
     margin-left: 80px;
     padding: 10px 0px 10px 5px;
     text-align: left;
+    font-size: 2em;
     font-family: 'Inconsolata', monospace;
-    line-height: 22px;
-    color: #cccccc;
+    line-height: 1.1;
+    color: #999;
     opacity: 0;
     animation: showup 2s ease-out 2s forwards;
 }

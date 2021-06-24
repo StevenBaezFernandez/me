@@ -1,0 +1,37 @@
+.tittle_contact{
+    font-size: 4em;
+    color: aqua;
+    margin: 50px 0px 50px 80px;
+    height: 1em;
+}
+.container_contact{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px 50px 80px;
+    box-shadow: 1px 3px 20px #000;
+    padding: 50px;
+    border-radius: 5px;
+    background: #222;
+}
+.contact{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.contact i{
+    font-size: 5em;
+    margin-right: 30px;
+
+}
+.contact span{
+    font-size: 2em;
+}
+.contact span a{
+    color: #ccc;
+    text-decoration: none;
+    transition: .1.5s ease all;
+}
+.contact span a:hover{
+    text-decoration: underline;
+    color: #999;
+}
