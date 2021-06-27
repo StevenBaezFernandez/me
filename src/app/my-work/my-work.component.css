@@ -57,3 +57,33 @@
 .info_link_code span{
     margin-right: 5px;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 1375px){
+	/*Big smartphones [426px -> 600px]*/
+    .container_card_work{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 780px){
+	/*Small smartphones [325px -> 425px]*/
+    .tittle_skills{
+        font-size: 3.8em;
+        line-height: 1;
+        margin-left: 40px;
+    }
+    .container_card_work{
+        grid-template-columns: 1fr;
+        margin-left: 40px;
+    }
+
+}
