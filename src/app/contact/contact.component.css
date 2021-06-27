@@ -35,3 +35,50 @@
     text-decoration: underline;
     color: #999;
 }
+
+
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 1024px){
+	/*Big smartphones [426px -> 600px]*/
+    .container_contact{
+        padding: 10px;
+    }
+    .contact i{
+        font-size: 3.5em;
+        margin-right: 20px;
+    }
+    .contact span{
+        font-size: 1.7em;
+    }
+}
+@media only screen and (max-width: 780px){
+	/*Small smartphones [325px -> 425px]*/
+    .tittle_contact{
+        margin-left: 40px;
+        font-size: 3.8em;
+    }
+    .container_contact{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 80px;
+        padding: 5px;
+    }
+    .contact{
+        flex-direction: column;
+
+    }
+    .contact i{
+        font-size: 3em;
+        margin-right: 5px;
+    }
+    .contact span{
+        font-size: 1.5em;
+        min-width: 90%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
