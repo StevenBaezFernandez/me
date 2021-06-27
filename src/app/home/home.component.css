@@ -13,7 +13,7 @@
     position: absolute;
     top: 30px;
     right: 20px;
-    /* display: none; */
+    display: none;
 }
 .home_main_container > div{
     width: 50%;
@@ -98,10 +98,16 @@
 @media only screen and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1375px){
 	/*Big smartphones [426px -> 600px]*/
+    .home_main_container .txt h2{
+        font-size: 4em;
+        margin-top: 20px;
+        margin-left: 40px;
+
+    }
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 900px){
 	/*Small smartphones [325px -> 425px]*/
     .home_main_container{
         flex-direction: column;
@@ -111,7 +117,7 @@
         width: 100%;
     }
     .home_main_container .txt{
-        height: 11em;
+        height: 12.2em;
     }
     .home_main_container .txt h2{
         font-size: 3em;
@@ -123,11 +129,14 @@
         margin-left: 40px;
     }
     .home_main_container .btn_go_about{
-        margin: 20px auto;
+        margin: 30px auto;
     }
     .home_main_container .right .img_home{
         width: 65%;
         margin: auto;
+        display: block;
+    }
+    .btn-mobile-menu{
         display: block;
     }
 
