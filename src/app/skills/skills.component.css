@@ -27,3 +27,29 @@
 .card img{
     width: 90px;
 }
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 1375px){
+	/*Big smartphones [426px -> 600px]*/
+    .container-cards-skills{
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width: 700px){
+	/*Small smartphones [325px -> 425px]*/
+    .tittle_skills{
+        margin-left: 40px;
+        font-size: 4em;
+    }
+    .container-cards-skills{
+        grid-template-columns: 1fr 1fr;
+        margin-left: 40px;
+    }
+}
