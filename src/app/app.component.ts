@@ -129,13 +129,16 @@ export class AppComponent implements OnInit{
     },
     "retina_detect": true
   };
+  menu:boolean = false;
+
+  toggle_menu(){
+    this.menu = !this.menu;
+  }
   
-  constructor(){
-    
-    
+  constructor(){      
+
   }
   ngOnInit() {
-
   }
 }
 

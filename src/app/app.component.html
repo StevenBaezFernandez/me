@@ -5,6 +5,21 @@
     </div>
 
     
+    <div class="wrap_menu_mobile" [ngClass]="{'active': menu}">
+        <img src="assets/img/cancel.svg" (click)="toggle_menu()" class="btn_close_mobile_menu" alt="">
+        <div class="wrap_menu_mobile__header">
+            <img src="assets/img/logo.png" alt="">
+        </div>
+        <div class="wrap_menu_mobile__body">
+            <a routerLink="/" (click)="toggle_menu()">Home</a>
+            <a routerLink="/about" (click)="toggle_menu()">About</a>
+            <a routerLink="/skills" (click)="toggle_menu()">My Skills</a>
+            <a routerLink="/my-work" (click)="toggle_menu()">My Work</a>
+            <a routerLink="/contact" (click)="toggle_menu()">Contact</a>
+        </div>
+    </div>
+
+    
     <div class="container_router">
         <particles  id= "particles"  [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
         <ngx-spinner
@@ -19,3 +34,4 @@
     </div>
     
 </div>
+<img src="assets/img/btn-mobile-menu.svg" alt="" class="btn-mobile-menu" (click)="toggle_menu()">
